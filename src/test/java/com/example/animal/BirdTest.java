@@ -1,15 +1,17 @@
 package com.example.animal;
 
-/**
- * @author wangling
- */
-public class Solution {
+import org.junit.jupiter.api.Test;
 
-    public static void main(String[] args) {
+public class BirdTest {
+
+    @Test
+    void testBird() {
         Bird bird = new Bird();
         bird.walk();
         bird.fly();
         bird.sing();
     }
+
+
 
 }
