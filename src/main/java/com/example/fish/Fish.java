@@ -27,8 +27,6 @@ public class Fish extends Animal implements IFish{
         this.colour = colour;
     }
 
-
-
     @Override
     public String toString() {
         return size + " and " + colour;
@@ -37,5 +35,20 @@ public class Fish extends Animal implements IFish{
     @Override
     public void swim() {
         System.out.println("I am swiming");
+    }
+
+    @Override
+    public boolean canSwim() {
+        return true;
+    }
+
+    @Override
+    public boolean canWalk() {
+        return false;
+    }
+
+    @Override
+    public boolean canSing() {
+        return false;
     }
 }

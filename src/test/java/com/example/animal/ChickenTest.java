@@ -1,5 +1,6 @@
-package com.example.demo;
+package com.example.animal;
 
+import com.example.animal.Chicken;
 import org.junit.jupiter.api.Test;
 
 public class ChickenTest {

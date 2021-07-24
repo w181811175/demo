@@ -1,9 +1,6 @@
 package com.example.animal;
 
-import com.example.demo.Rooster;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class ParrotTest {
 

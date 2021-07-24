@@ -3,7 +3,7 @@ package com.example.animal;
 /**
  * @author wangling
  */
-public class Cat implements IAnimal{
+public class Cat extends Animal implements IAnimal{
 
     private String say = "Me ow";
 

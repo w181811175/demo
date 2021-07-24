@@ -9,4 +9,8 @@ public class Bird extends Animal {
         System.out.println("I am flying");
     }
 
+    @Override
+    public boolean canFly() {
+        return true;
+    }
 }

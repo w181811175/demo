@@ -17,4 +17,9 @@ public class Duck extends Bird implements IAnimal{
     public void say() {
         System.out.println("Quack , quack");
     }
+
+    @Override
+    public boolean canSwim() {
+        return true;
+    }
 }

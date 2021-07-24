@@ -1,6 +1,4 @@
-package com.example.demo;
-
-import com.example.animal.Bird;
+package com.example.animal;
 
 /**
  * @author wangling
@@ -11,4 +9,8 @@ public class Chicken extends Bird {
         System.out.println("Cluck, cluck");
     }
 
+    @Override
+    public boolean canFly() {
+        return false;
+    }
 }

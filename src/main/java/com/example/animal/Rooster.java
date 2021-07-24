@@ -1,7 +1,4 @@
-package com.example.demo;
-
-
-import com.example.animal.IAnimal;
+package com.example.animal;
 
 /**
  * @author wangling
@@ -21,5 +18,13 @@ public class Rooster extends Chicken implements IAnimal {
     @Override
     public void say() {
         System.out.println(sing);
+    }
+
+    public void roosterSay(String language){
+        if(language != null && !language.equals("")){
+            System.out.println(RoosterLanguage.getSound(language));
+        }else{
+            System.out.println(sing);
+        }
     }
 }
